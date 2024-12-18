@@ -1,6 +1,8 @@
 # TODO
 
 - scrape member counts
+- add script to sort input.yml by name
+- add Eventbrite scraper, TA Cafe meetup
 - ignore events more than 6 months in the past (inactive meetups) and more than 3 months in the future (e.g. Front Finland)
 - populate _data/input.yml with more meetups
 - standardize naming of vars on future and past
@@ -9,5 +11,5 @@
 - push to GitHub
 - add GitHub action to run index.ts and update Jekyll site on daily schedule
 - update README.md
-- add favicon, use calendar-event
+- add favicon, use Finnish flag emoji or Tabler calendar-event icon
 - fix opacity hack in header.html
