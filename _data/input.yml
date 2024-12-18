@@ -1,74 +1,91 @@
-- name: HelsinkiJS
-  location: Helsinki, Finland
+- name: archipelago.dev
+  location: Turku, Finland
   tags:
-    - JavaScript
-  url: https://www.meetabit.com/communities/helsinkijs
-  logo: https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1448022416/bulcgwowlfcdnpdqv4yi.jpg?_a=BACCd2Ev
+    - Python
+  url: https://www.meetabit.com/communities/archipylago
+  logo: >-
+    https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1445797129/lcc1h6mul4clmqygyhfv.png?_a=BACCd2Ev
+- name: Aurajoki Overflow
+  location: Turku, Finland
+  tags:
+    - Software Development
+  url: https://www.meetabit.com/communities/aurajoki-overflow
+  logo: >-
+    https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1659504903/ssxuuuii1ki5asxvx7hd.png?_a=BACCd2Ev
 - name: Future Frontend
   location: Helsinki, Finland
   tags:
     - Frontend
     - JavaScript
   url: https://www.meetabit.com/communities/future-frontend
-  logo: https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1705325850/rbmdj9m6ym7ub5uplvbz.jpg
-- name: Turku <3 Frontend
-  location: Turku, Finland
-  tags:
-    - JavaScript
-  url: https://www.meetabit.com/communities/turku-3-frontend
-  logo: https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1460627359/vh71lfpxpqrwvnsdlthz.jpg?_a=BACCd2Ev
+  logo: >-
+    https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1705325850/rbmdj9m6ym7ub5uplvbz.jpg
 - name: Helsinki Python
   location: Helsinki, Finland
   tags:
     - Python
   url: https://www.meetup.com/helpy-meetups/
-  logo: https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1445797129/lcc1h6mul4clmqygyhfv.png?_a=BACCd2Ev
-- name: Microsoft Security User Group Finland
+  logo: >-
+    https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1445797129/lcc1h6mul4clmqygyhfv.png?_a=BACCd2Ev
+- name: HelsinkiJS
   location: Helsinki, Finland
   tags:
-    - Microsoft
-    - Security
-  url: https://www.meetup.com/microsoft-security-user-group-finland/
-  logo: https://media.licdn.com/dms/image/v2/D4D07AQE2Fzobyg6Sww/group-logo_image-shrink_92x92/group-logo_image-shrink_92x92/0/1724440666641?e=1735070400&v=beta&t=_qj7djyJ3DZQQGf3IOYLoPBiIM4bwISy3ZWdS06efz4
-- name: Aurajoki Overflow
-  location: Turku, Finland
-  tags:
-    - Software Development
-  url: https://www.meetabit.com/communities/aurajoki-overflow
-  logo: https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1659504903/ssxuuuii1ki5asxvx7hd.png?_a=BACCd2Ev
-- name: TurkuSec
-  location: Turku, Finland
-  tags:
-    - Security
-  url: https://www.meetup.com/turkusec/
-  logo: https://pbs.twimg.com/profile_images/723892196592738304/3owbpn9N_400x400.jpg
-- name: Turku WordPress Meetup
-  location: Turku, Finland
-  tags:
-    - WordPress
-  url: https://www.meetup.com/turku-wordpress-meetup/
-  logo: https://secure.meetupstatic.com/photos/member/4/e/4/4/preview_320840036.webp?w=256
-- name: archipelago.dev
-  location: Turku, Finland
-  tags:
-    - Python
-  url: https://www.meetabit.com/communities/archipylago
-  logo: https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1445797129/lcc1h6mul4clmqygyhfv.png?_a=BACCd2Ev
-- name: Turku AI
-  location: Turku, Finland
-  tags:
-    - AI
-  url: https://www.meetup.com/turku-ai/
-  logo: https://pbs.twimg.com/profile_images/1003901707691192320/mBnA8CFh_400x400.jpg
-- name: Turku Mobile
-  location: Turku, Finland
-  tags:
-    - Mobile
-  url: https://www.meetabit.com/communities/turkumobile
-  logo: https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1701890798/i3sppzemxpslf3zxucbs.jpg?_a=BACCd2Ev
+    - JavaScript
+  url: https://www.meetabit.com/communities/helsinkijs
+  logo: >-
+    https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1448022416/bulcgwowlfcdnpdqv4yi.jpg?_a=BACCd2Ev
 - name: Kubernetes Turku
   location: Turku, Finland
   tags:
     - Kubernetes
   url: https://www.meetup.com/Kubernetes-Turku/
   logo: https://cloudnativenordics.com/snowflake_white_border.png
+- name: Microsoft Security User Group Finland
+  location: Helsinki, Finland
+  tags:
+    - Microsoft
+    - Security
+  url: https://www.meetup.com/microsoft-security-user-group-finland/
+  logo: >-
+    https://media.licdn.com/dms/image/v2/D4D07AQE2Fzobyg6Sww/group-logo_image-shrink_92x92/group-logo_image-shrink_92x92/0/1724440666641?e=1735070400&v=beta&t=_qj7djyJ3DZQQGf3IOYLoPBiIM4bwISy3ZWdS06efz4
+- name: TampereJS
+  location: Tampere, Finland
+  tags:
+    - JavaScript
+  url: https://www.meetabit.com/communities/tamperejs
+  logo: >-
+    https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1513799543/wdg367emtnrtzzjz6tug.png?_a=BACCd2Ev
+- name: Turku <3 Frontend
+  location: Turku, Finland
+  tags:
+    - JavaScript
+  url: https://www.meetabit.com/communities/turku-3-frontend
+  logo: >-
+    https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1460627359/vh71lfpxpqrwvnsdlthz.jpg?_a=BACCd2Ev
+- name: Turku AI
+  location: Turku, Finland
+  tags:
+    - AI
+  url: https://www.meetup.com/turku-ai/
+  logo: >-
+    https://pbs.twimg.com/profile_images/1003901707691192320/mBnA8CFh_400x400.jpg
+- name: Turku Mobile
+  location: Turku, Finland
+  tags:
+    - Mobile
+  url: https://www.meetabit.com/communities/turkumobile
+  logo: >-
+    https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1701890798/i3sppzemxpslf3zxucbs.jpg?_a=BACCd2Ev
+- name: Turku WordPress Meetup
+  location: Turku, Finland
+  tags:
+    - WordPress
+  url: https://www.meetup.com/turku-wordpress-meetup/
+  logo: >-
+    https://secure.meetupstatic.com/photos/member/4/e/4/4/preview_320840036.webp?w=256
+- name: TurkuSec
+  location: Turku, Finland
+  tags:
+    - Security
+  url: https://www.meetup.com/turkusec/
+  logo: https://pbs.twimg.com/profile_images/723892196592738304/3owbpn9N_400x400.jpg

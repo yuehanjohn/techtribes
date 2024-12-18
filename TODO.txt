@@ -1,19 +1,18 @@
 # TODO
 
+- ignore events more than 6 months in the past (inactive meetups) and more than 3 months in the future (e.g. Front Finland)
 - add a separate link for the meetup homepage
-- try using promise all to fetch all meetups at once
 - add more tags to meetups
-- add script to sort input.yml by name, remove duplicates
-- add script to generate YML from CSV
 - move Jekyll files to subdirectory
 - populate _data/input.yml with more meetups
-- ignore events more than 6 months in the past (inactive meetups) and more than 3 months in the future (e.g. Front Finland)
 - fix "Source code", "+ Add meetup" links
 - add GitHub action to run index.ts and update Jekyll site on daily schedule
 - update README.md
 - add script to download meetup logos to /logos, convert to png and update input.yml
 - add script to remove a meetup from input.yml and associated logo from /logos, if one exists
 - make locations and tags clickable, have them act as filters
+- add script to generate YML from CSV
+- create a form page for creating PRs https://css-tricks.com/generate-a-pull-request-of-static-content-with-a-simple-html-form/
+- fix opacity hack in header.html
 - add Eventbrite scraper, https://www.eventbrite.fi/o/finnish-game-jam-ry-6802261839 https://www.eventbrite.com/o/ta-cafe-57317059403
 - add Facebook scraper, https://www.facebook.com/groups/igdaturku/events
-- fix opacity hack in header.html
