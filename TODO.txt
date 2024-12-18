@@ -11,5 +11,4 @@
 - push to GitHub
 - add GitHub action to run index.ts and update Jekyll site on daily schedule
 - update README.md
-- add favicon, use Finnish flag emoji or Tabler calendar-event icon
 - fix opacity hack in header.html
