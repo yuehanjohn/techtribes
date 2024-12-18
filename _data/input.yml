@@ -52,7 +52,6 @@
 - name: Helsinki Data Analytics & Science Meetup
   location: Helsinki, Finland
   tags:
-    - AI
     - Data Science
   url: https://www.meetup.com/helsinki-data-analytics-science-meetup/
   logo: >-
@@ -78,6 +77,14 @@
   url: https://www.meetabit.com/communities/helsinkijs
   logo: >-
     https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1448022416/bulcgwowlfcdnpdqv4yi.jpg?_a=BACCd2Ev
+- name: HelsinkiOS
+  location: Helsinki, Finland
+  tags:
+    - iOS
+    - Mac
+  url: https://www.meetup.com/HelsinkiOS-Mac-and-iOS-Developers/
+  logo: >-
+    https://pbs.twimg.com/profile_images/378800000416246738/eff951992be034d6d68b756162944fd7_400x400.png
 - name: Kubernetes Turku
   location: Turku, Finland
   tags:
