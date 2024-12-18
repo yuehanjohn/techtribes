@@ -17,15 +17,18 @@ const past: any[] = [];
       scraped = await scrapeMeetabit(url);
     }
     if (scraped) {
+      const members = scraped.members;
       if (scraped.future) {
         future.push({
           ...meetup,
+          members,
           date: scraped.future.date,
           event: scraped.future.link,
         });
       } else if (scraped.past) {
         past.push({
           ...meetup,
+          members,
           date: scraped.past.date,
           event: scraped.past.link,
         });

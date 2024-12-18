@@ -78,5 +78,6 @@ export default async function scrape(url) {
       }
     : undefined;
 
-  return { future, past };
+  return { future, past, members: $('h1~ p+ p').text().match(/\d+/g)?.map(Number).pop()
+  };
 }

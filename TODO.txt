@@ -1,6 +1,5 @@
 # TODO
 
-- scrape member counts
 - add script to sort input.yml by name
 - add Eventbrite scraper, TA Cafe meetup
 - ignore events more than 6 months in the past (inactive meetups) and more than 3 months in the future (e.g. Front Finland)

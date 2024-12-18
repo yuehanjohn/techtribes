@@ -29,6 +29,10 @@ function parseDate(input) {
   return `${formattedDay}/${month}/${year}`;
 }
 
+function parseNumber(input: string) {
+  return input.match(/\d{1,3}(?:,\d{3})*/g)?.map(num => parseInt(num.replace(/,/g, ''), 10)).pop();
+  }
+
 export default async function scrape(url) {
   const response = await fetch(url);
   const html = await response.text();
@@ -54,5 +58,6 @@ export default async function scrape(url) {
   return {
     future,
     past,
+    members: parseNumber($("#member-count-link div").text()),
   };
 }
