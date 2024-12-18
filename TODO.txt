@@ -1,10 +1,9 @@
 # TODO
 
-- ignore events more than 6 months in the past (inactive meetups) and more than 3 months in the future (e.g. Front Finland)
+- ignore events more than 12 months in the past, log warning
 - add a separate link for the meetup homepage
 - add more tags to meetups
 - move Jekyll files to subdirectory
-- populate _data/input.yml with more meetups
 - fix "Source code", "+ Add meetup" links
 - add GitHub action to run index.ts and update Jekyll site on daily schedule
 - update README.md

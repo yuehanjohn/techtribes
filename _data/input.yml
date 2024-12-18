@@ -12,6 +12,28 @@
   url: https://www.meetabit.com/communities/aurajoki-overflow
   logo: >-
     https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1659504903/ssxuuuii1ki5asxvx7hd.png?_a=BACCd2Ev
+- name: Databricks user group Finland
+  location: Helsinki, Finland
+  tags:
+    - Databricks
+  url: https://www.meetup.com/meetup-group-ssatkbta/
+  logo: >-
+    https://pbs.twimg.com/profile_images/1712873392163246080/PneUlcjM_400x400.jpg
+- name: DevOps Finland
+  location: Helsinki, Finland
+  tags:
+    - DevOps
+  url: https://www.meetup.com/devops-finland/
+  logo: >-
+    https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1443901479/afwzk4xexyf8bsjwdw0a.png?_a=BACCd2Ev
+- name: Finland Azure User Group
+  location: Helsinki, Finland
+  tags:
+    - Azure
+    - DevOps
+  url: https://www.meetup.com/finland-azure-user-group/
+  logo: >-
+    https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/240px-Microsoft_Azure.svg.png
 - name: Future Frontend
   location: Helsinki, Finland
   tags:
@@ -20,6 +42,21 @@
   url: https://www.meetabit.com/communities/future-frontend
   logo: >-
     https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1705325850/rbmdj9m6ym7ub5uplvbz.jpg
+- name: Helsinki Clojure Meetup
+  location: Helsinki, Finland
+  tags:
+    - Clojure
+  url: https://www.meetup.com/helsinki-clojure-meetup/
+  logo: >-
+    https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Clojure_logo.svg/256px-Clojure_logo.svg.png
+- name: Helsinki Data Analytics & Science Meetup
+  location: Helsinki, Finland
+  tags:
+    - AI
+    - Data Science
+  url: https://www.meetup.com/helsinki-data-analytics-science-meetup/
+  logo: >-
+    https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Ni496ibce18rCKv2BOTcZGZUh-NJihEVZQ&s
 - name: Helsinki Python
   location: Helsinki, Finland
   tags:
@@ -27,6 +64,13 @@
   url: https://www.meetup.com/helpy-meetups/
   logo: >-
     https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1445797129/lcc1h6mul4clmqygyhfv.png?_a=BACCd2Ev
+- name: Helsinki Ruby Brigade
+  location: Helsinki, Finland
+  tags:
+    - Ruby
+  url: https://www.meetup.com/rubybrigade/
+  logo: >-
+    https://cdn.masto.host/rubysocial/accounts/avatars/110/135/225/663/078/522/original/1a308bc37d47e64e.png
 - name: HelsinkiJS
   location: Helsinki, Finland
   tags:
