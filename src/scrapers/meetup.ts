@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
 
-function parseDate(input) {
+function parseDate(input: string) {
   const regex = /(\w{3}), (\w{3}) (\d{1,2}), (\d{4})/;
   const match = input.match(regex);
 
@@ -30,10 +30,13 @@ function parseDate(input) {
 }
 
 function parseNumber(input: string) {
-  return input.match(/\d{1,3}(?:,\d{3})*/g)?.map(num => parseInt(num.replace(/,/g, ''), 10)).pop();
-  }
+  return input
+    .match(/\d{1,3}(?:,\d{3})*/g)
+    ?.map((num) => parseInt(num.replace(/,/g, ""), 10))
+    .pop();
+}
 
-export default async function scrape(url) {
+export default async function scrape(url: string | URL | Request) {
   const response = await fetch(url);
   const html = await response.text();
 

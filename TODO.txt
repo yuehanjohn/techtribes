@@ -1,6 +1,5 @@
 # TODO
 
-- standardize naming of vars on future and past
 - populate _data/input.yml with more meetups
 - add more tags to meetups
 - add script to sort input.yml by name

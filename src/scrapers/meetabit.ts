@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
 
-function parseDate(dayNumber, monthName) {
+function parseDate(dayNumber: string, monthName: string) {
   const months = {
     jan: "01",
     feb: "02",
@@ -42,42 +42,45 @@ function parseDate(dayNumber, monthName) {
   return `${day}/${months[monthLower]}/${currentYear}`;
 }
 
-export default async function scrape(url) {
+export default async function scrape(url: string | URL | Request) {
   const response = await fetch(url);
   const html = await response.text();
 
   const $ = cheerio.load(html);
 
-  const upcomingEvent = $('.col-sm-7 h3:contains("Upcoming Event")')
+  const futureEvent = $('.col-sm-7 h3:contains("Upcoming Event")')
     .next("ul")
     .find("li")
     .first();
 
-  const future = upcomingEvent.length
+  const future = futureEvent.length
     ? {
         date: parseDate(
-          upcomingEvent.find(".day-number").text(),
-          upcomingEvent.find(".month-name").text()
+          futureEvent.find(".day-number").text(),
+          futureEvent.find(".month-name").text()
         ),
-        link: "https://www.meetabit.com" + upcomingEvent.find("a").attr("href"),
+        link: "https://www.meetabit.com" + futureEvent.find("a").attr("href"),
       }
     : undefined;
 
-  const previousEvent = $('.col-sm-7 h3:contains("Previous Event")')
+  const pastEvent = $('.col-sm-7 h3:contains("Previous Event")')
     .next("ul")
     .find("li")
     .first();
 
-  const past = previousEvent.length
+  const past = pastEvent.length
     ? {
         date: parseDate(
-          previousEvent.find(".day-number").text(),
-          previousEvent.find(".month-name").text()
+          pastEvent.find(".day-number").text(),
+          pastEvent.find(".month-name").text()
         ),
-        link: "https://www.meetabit.com" + previousEvent.find("a").attr("href"),
+        link: "https://www.meetabit.com" + pastEvent.find("a").attr("href"),
       }
     : undefined;
 
-  return { future, past, members: $('h1~ p+ p').text().match(/\d+/g)?.map(Number).pop()
+  return {
+    future,
+    past,
+    members: $("h1~ p+ p").text().match(/\d+/g)?.map(Number).pop(),
   };
 }
