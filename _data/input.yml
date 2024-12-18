@@ -70,6 +70,11 @@
   url: https://www.meetup.com/rubybrigade/
   logo: >-
     https://cdn.masto.host/rubysocial/accounts/avatars/110/135/225/663/078/522/original/1a308bc37d47e64e.png
+- name: Helsinki Security Meetup
+  location: Helsinki, Finland
+  tags:
+    - Security
+  url: https://www.meetup.com/helsinki-security-meetup/
 - name: HelsinkiJS
   location: Helsinki, Finland
   tags:

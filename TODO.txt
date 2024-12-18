@@ -1,6 +1,6 @@
 # TODO
 
-- ignore events more than 12 months in the past, log warning
+- replace the word "meetup" with "community" in the repo
 - add a separate link for the meetup homepage
 - add more tags to meetups
 - move Jekyll files to subdirectory
