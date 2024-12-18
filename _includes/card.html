@@ -1,0 +1,62 @@
+<div class="card">
+  <div class="row g-0">
+    <div class="col-auto">
+      <div class="card-body">
+        <a href="{{ meetup.url }}">
+          <div
+            class="avatar avatar-md"
+            style="background-image: url({{ meetup.logo }})"
+          ></div>
+        </a>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card-body ps-0">
+        <div class="row">
+          <div class="col">
+            <h3 class="mb-0">
+              <a href="{{ meetup.url }}">{{ meetup.name }}</a>
+            </h3>
+          </div>
+          <div class="col-auto fs-3 text-muted">
+            {% include icons/calendar-event.svg %}
+            <a href="{{ meetup.event }}">{{ meetup.date }}</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <div
+              class="mt-3 list-inline list-inline-dots mb-0 text-secondary d-sm-block d-none"
+            >
+              <div class="list-inline-item">
+                {% include icons/map-pin.svg %} {{ meetup.location }}
+              </div>
+              <div class="list-inline-item">
+                {% include icons/users-group.svg %} 300
+              </div>
+            </div>
+            <div class="mt-3 list mb-0 text-secondary d-block d-sm-none">
+              <div class="list-item">
+                {% include icons/map-pin.svg %} {{ meetup.location }}
+              </div>
+              <div class="list-item">
+                {% include icons/users-group.svg %} 300
+              </div>
+            </div>
+          </div>
+          <div class="col-md-auto">
+            <div class="mt-3 badges">
+              {% for tag in meetup.tags %}
+              <div
+                class="badge badge-outline text-secondary fw-normal badge-pill"
+              >
+                {{ tag }}
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

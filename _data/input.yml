@@ -1,0 +1,32 @@
+- name: HelsinkiJS
+  location: Helsinki, Finland
+  tags:
+    - JavaScript
+  url: https://www.meetabit.com/communities/helsinkijs
+  logo: https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1448022416/bulcgwowlfcdnpdqv4yi.jpg?_a=BACCd2Ev
+- name: Future Frontend
+  location: Helsinki, Finland
+  tags:
+    - Frontend
+    - JavaScript
+  url: https://www.meetabit.com/communities/future-frontend
+  logo: https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1705325850/rbmdj9m6ym7ub5uplvbz.jpg
+- name: Turku <3 Frontend
+  location: Turku, Finland
+  tags:
+    - JavaScript
+  url: https://www.meetabit.com/communities/turku-3-frontend
+  logo: https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1460627359/vh71lfpxpqrwvnsdlthz.jpg?_a=BACCd2Ev
+- name: Helsinki Python
+  location: Helsinki, Finland
+  tags:
+    - Python
+  url: https://www.meetup.com/helpy-meetups/
+  logo: https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1445797129/lcc1h6mul4clmqygyhfv.png?_a=BACCd2Ev
+- name: Microsoft Security User Group Finland
+  location: Helsinki, Finland
+  tags:
+    - Microsoft
+    - Security
+  url: https://www.meetup.com/microsoft-security-user-group-finland/
+  logo: https://media.licdn.com/dms/image/v2/D4D07AQE2Fzobyg6Sww/group-logo_image-shrink_92x92/group-logo_image-shrink_92x92/0/1724440666641?e=1735070400&v=beta&t=_qj7djyJ3DZQQGf3IOYLoPBiIM4bwISy3ZWdS06efz4
