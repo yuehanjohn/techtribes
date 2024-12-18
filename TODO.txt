@@ -1,13 +1,13 @@
 # TODO
 
-- add script to sort input.yml by name
-- add Eventbrite scraper, TA Cafe meetup
-- ignore events more than 6 months in the past (inactive meetups) and more than 3 months in the future (e.g. Front Finland)
-- populate _data/input.yml with more meetups
 - standardize naming of vars on future and past
+- populate _data/input.yml with more meetups
+- add more tags to meetups
+- add script to sort input.yml by name
+- ignore events more than 6 months in the past (inactive meetups) and more than 3 months in the future (e.g. Front Finland)
 - fix "Source code", "+ Add meetup" links
-- make locations and tags clickable, have them act as filters
-- push to GitHub
 - add GitHub action to run index.ts and update Jekyll site on daily schedule
 - update README.md
+- make locations and tags clickable, have them act as filters
+- add Eventbrite scraper, TA Cafe meetup
 - fix opacity hack in header.html
