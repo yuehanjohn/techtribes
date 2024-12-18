@@ -6,6 +6,13 @@ Install dendencies:
 
 ```bash
 bundle install
+npm install
+```
+
+Generate data:
+
+```
+npm start
 ```
 
 Run development server:
