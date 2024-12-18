@@ -4,50 +4,39 @@ import scrapeMeetup from "./scrapers/meetup";
 import scrapeMeetabit from "./scrapers/meetabit";
 
 const file = fs.readFileSync("_data/input.yml", "utf8");
-const input = yaml.load(file);
+const input = yaml.load(file) as any[];
 const future: any[] = [];
 const past: any[] = [];
-(async function main() {
-  for (const meetup of input as any[]) {
-    const { url } = meetup;
-    let scraped: any;
-    if (url.startsWith("https://www.meetup.com/")) {
-      scraped = await scrapeMeetup(url);
-    } else if (url.startsWith("https://www.meetabit.com/")) {
-      scraped = await scrapeMeetabit(url);
-    }
-    if (scraped) {
-      const members = scraped.members;
-      if (scraped.future) {
-        future.push({
-          ...meetup,
-          members,
-          date: scraped.future.date,
-          event: scraped.future.link,
-        });
-      } else if (scraped.past) {
-        past.push({
-          ...meetup,
-          members,
-          date: scraped.past.date,
-          event: scraped.past.link,
-        });
-      }
-    }
+
+async function scrape(meetup: { url: string }) {
+  const { url } = meetup;
+  let scraped: any;
+  if (url.startsWith("https://www.meetup.com/")) {
+    scraped = await scrapeMeetup(url);
+  } else if (url.startsWith("https://www.meetabit.com/")) {
+    scraped = await scrapeMeetabit(url);
   }
+  if (scraped) {
+    const members = scraped.members;
+    const target = scraped.future ? future : past;
+    const data = scraped.future || scraped.past;
+    target.push({
+      ...meetup,
+      members,
+      date: data.date,
+      event: data.link,
+    });
+  }
+}
+
+(async function main() {
+  const date = (event: any) => +event.date.split("/").reverse().join("");
+  await Promise.all(input.map(scrape));
   fs.writeFileSync(
     "_data/output.yml",
     yaml.dump({
-      future: future.sort(
-        (a, b) =>
-          +a.date.split("/").reverse().join("") -
-          +b.date.split("/").reverse().join("")
-      ),
-      past: past.sort(
-        (a, b) =>
-          +b.date.split("/").reverse().join("") -
-          +a.date.split("/").reverse().join("")
-      ),
+      future: future.sort((a, b) => date(a) - date(b)),
+      past: past.sort((a, b) => date(b) - date(a)),
     })
   );
 })();
