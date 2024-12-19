@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tech meetups in Finland
+title: Tech communities in Finland
 ---
 
 <div class="page-header d-print-none">
@@ -11,7 +11,7 @@ title: Tech meetups in Finland
       </div>
       <div class="col-auto ms-auto d-print-none">
         <a href="#" class="btn btn-primary">
-          {% include icons/plus.svg %} Add a meetup
+          {% include icons/plus.svg %} Add a community
         </a>
       </div>
     </div>
@@ -21,7 +21,7 @@ title: Tech meetups in Finland
   <div class="container">
     <div class="row row-cards">
       <div class="space-y">
-        {% for meetup in site.data.output.future %} {% include card.html %} {%
+        {% for community in site.data.output.future %} {% include card.html %} {%
         endfor %}
       </div>
     </div>
@@ -40,7 +40,7 @@ title: Tech meetups in Finland
   <div class="container">
     <div class="row row-cards">
       <div class="space-y">
-        {% for meetup in site.data.output.past %} {% include card.html %} {%
+        {% for community in site.data.output.past %} {% include card.html %} {%
         endfor %}
       </div>
     </div>

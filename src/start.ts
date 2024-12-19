@@ -8,8 +8,8 @@ const input = yaml.load(file) as any[];
 const future: any[] = [];
 const past: any[] = [];
 
-async function scrape(meetup: { name: string; url: string }) {
-  const { url } = meetup;
+async function scrape(community: { name: string; url: string }) {
+  const { url } = community;
   let scraped: any;
   if (url.startsWith("https://www.meetup.com/")) {
     scraped = await scrapeMeetup(url);
@@ -26,12 +26,12 @@ async function scrape(meetup: { name: string; url: string }) {
         new Date(+year, +month - 1, +day).getTime() <
         Date.now() - 31536000000
       ) {
-        console.warn(`Inactive: ${meetup.name} (${scraped.past.date})`);
+        console.warn(`Inactive: ${community.name} (${scraped.past.date})`);
         return;
       }
     }
     target.push({
-      ...meetup,
+      ...community,
       members,
       date: data.date,
       event: data.link,
