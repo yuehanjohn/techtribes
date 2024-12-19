@@ -35,7 +35,7 @@ jobs:
       - name: Install Node dependencies
         run: npm install
       - name: Generate data
-        run: npm build
+        run: npm run build
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
