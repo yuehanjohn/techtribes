@@ -1,7 +1,6 @@
 # TODO
 
 - add license
-- add a temporary solution for the "+ Add meetup" link
 - add a separate link for the meetup homepage
 - add more tags to meetups
 - move Jekyll files to subdirectory
