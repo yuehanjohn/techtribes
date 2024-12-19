@@ -38,7 +38,7 @@ npm install
 Generate data:
 
 ```
-npm build
+npm run build
 ```
 
 Run development server:
