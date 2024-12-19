@@ -1,12 +1,12 @@
 # TODO
 
-- add GitHub action to run index.ts and update Jekyll site on daily schedule
 - add license
+- add a temporary solution for the "+ Add meetup" link
 - add a separate link for the meetup homepage
 - add more tags to meetups
 - move Jekyll files to subdirectory
-- fix "+ Add meetup" link https://documentation.formspark.io/setup/#html
-- rename repo
+- rename repo, setup domain
+- create form for adding meetups https://documentation.formspark.io/setup/#html
 - update README.md
 - add script to download meetup logos to /logos, convert to png and update input.yml
 - add script to remove a meetup from input.yml and associated logo from /logos, if one exists
