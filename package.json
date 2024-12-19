@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "tsx src/start.ts",
+    "start": "jekyll serve --livereload --host 0.0.0.0",
+    "build": "tsx src/build.ts",
     "sort": "tsx src/sort.ts"
   },
   "author": "",

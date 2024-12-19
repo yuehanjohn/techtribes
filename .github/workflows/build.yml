@@ -34,8 +34,8 @@ jobs:
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Install Node dependencies
         run: npm install
-      - name: Generate output.yml
-        run: npm start
+      - name: Generate data
+        run: npm build
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
