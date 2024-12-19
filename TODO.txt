@@ -1,6 +1,7 @@
 # TODO
 
-- open source, add GitHub action to run index.ts and update Jekyll site on daily schedule
+- add GitHub action to run index.ts and update Jekyll site on daily schedule
+- add license
 - add a separate link for the meetup homepage
 - add more tags to meetups
 - move Jekyll files to subdirectory
