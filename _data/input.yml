@@ -82,8 +82,7 @@
     - TypeScript
     - Node.js
   url: https://www.meetabit.com/communities/helsinkijs
-  logo: >-
-    https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1448022416/bulcgwowlfcdnpdqv4yi.jpg?_a=BACCd2Ev
+  logo: https://helsinkijs.org/assets/icon.180.png
 - name: HelsinkiOS
   location: Helsinki, Finland
   tags:
