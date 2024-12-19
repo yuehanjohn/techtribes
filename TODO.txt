@@ -1,6 +1,7 @@
 # TODO
 
 - add license
+- fix how 404 page looks
 - add a separate link for the meetup homepage
 - rename repo, setup domain
 - move Jekyll files to subdirectory
