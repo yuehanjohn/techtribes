@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
 
-function parseDate(dayNumber: string, monthName: string) {
+function parseDate(dayNumber: string, monthName: string, isFutureEvent: boolean) {
   const months = {
     jan: "01",
     feb: "02",
@@ -27,16 +27,14 @@ function parseDate(dayNumber: string, monthName: string) {
     parseInt(day)
   );
 
-  if (
-    eventDate < currentDate &&
-    eventDate.getMonth() > currentDate.getMonth()
-  ) {
-    return `${day}/${months[monthLower]}/${currentYear - 1}`;
-  } else if (
-    eventDate > currentDate &&
-    eventDate.getMonth() < currentDate.getMonth()
-  ) {
-    return `${day}/${months[monthLower]}/${currentYear + 1}`;
+  if (isFutureEvent) {
+    if (eventDate < currentDate) {
+      return `${day}/${months[monthLower]}/${currentYear + 1}`;
+    }
+  } else {
+    if (eventDate > currentDate) {
+      return `${day}/${months[monthLower]}/${currentYear - 1}`;
+    }
   }
 
   return `${day}/${months[monthLower]}/${currentYear}`;
@@ -57,7 +55,8 @@ export default async function scrape(url: string | URL | Request) {
     ? {
         date: parseDate(
           futureEvent.find(".day-number").text(),
-          futureEvent.find(".month-name").text()
+          futureEvent.find(".month-name").text(),
+          true
         ),
         link: "https://www.meetabit.com" + futureEvent.find("a").attr("href"),
       }
@@ -72,7 +71,8 @@ export default async function scrape(url: string | URL | Request) {
     ? {
         date: parseDate(
           pastEvent.find(".day-number").text(),
-          pastEvent.find(".month-name").text()
+          pastEvent.find(".month-name").text(),
+          false
         ),
         link: "https://www.meetabit.com" + pastEvent.find("a").attr("href"),
       }
