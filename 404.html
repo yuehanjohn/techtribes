@@ -3,23 +3,36 @@ permalink: /404.html
 layout: default
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<main class="container-fluid">
+  <div class="font-medium" id="alerts"></div>
+  <div class="empty">
+    <div class="empty-header">404</div>
+    <h1 class="empty-title">Not found</h1>
+    <p class="empty-subtitle text-secondary">
+      The page you were looking for doesn't exist.
+    </p>
+    <div class="empty-action">
+      <a
+        class="btn d-inline-flex gap-2 align-items-center text-nowrap btn-primary btn-small justify-content-center"
+        href="/"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.25"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left icon-component flex-shrink-0 icon-component-small"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M5 12l14 0"></path>
+          <path d="M5 12l6 6"></path>
+          <path d="M5 12l6 -6"></path></svg
+        >Go home</a
+      >
+    </div>
+  </div>
+</main>
