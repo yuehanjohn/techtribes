@@ -38,7 +38,7 @@ npm install
 
 Generate data:
 
-```
+```bash
 npm run build
 ```
 
