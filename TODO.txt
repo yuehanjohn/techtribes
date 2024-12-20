@@ -5,5 +5,4 @@
 - rename repo, setup domain
 - move Jekyll files to subdirectory
 - fix issue with flag emoji not rendering on Android etc.
-- fix opacity hack in header.html
 
