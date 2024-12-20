@@ -17,7 +17,7 @@ A sample entry looks like this:
     - JavaScript
     - TypeScript
     - Node.js
-  url: https://www.meetabit.com/communities/helsinkijs
+  events: https://www.meetabit.com/communities/helsinkijs
   logo: https://helsinkijs.org/assets/icon.180.png
 ```
 

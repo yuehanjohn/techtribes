@@ -36,8 +36,8 @@ function parseNumber(input: string) {
     .pop();
 }
 
-export default async function scrape(url: string | URL | Request) {
-  const response = await fetch(url);
+export default async function scrape(events: string | URL | Request) {
+  const response = await fetch(events);
   const html = await response.text();
 
   const $ = cheerio.load(html);

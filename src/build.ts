@@ -8,14 +8,14 @@ const input = yaml.load(file) as any[];
 const future: any[] = [];
 const past: any[] = [];
 
-async function scrape(community: { name: string; url: string }) {
+async function scrape(community: { name: string; events: string }) {
   try {
-    const { url } = community;
+    const { events: events } = community;
     let scraped: any;
-    if (url.startsWith("https://www.meetup.com/")) {
-      scraped = await scrapeMeetup(url);
-    } else if (url.startsWith("https://www.meetabit.com/")) {
-      scraped = await scrapeMeetabit(url);
+    if (events.startsWith("https://www.meetup.com/")) {
+      scraped = await scrapeMeetup(events);
+    } else if (events.startsWith("https://www.meetabit.com/")) {
+      scraped = await scrapeMeetabit(events);
     }
     if (scraped) {
       const members = scraped.members;

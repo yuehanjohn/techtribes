@@ -1,6 +1,10 @@
 import * as cheerio from "cheerio";
 
-function parseDate(dayNumber: string, monthName: string, isFutureEvent: boolean) {
+function parseDate(
+  dayNumber: string,
+  monthName: string,
+  isFutureEvent: boolean
+) {
   const months = {
     jan: "01",
     feb: "02",
@@ -40,8 +44,8 @@ function parseDate(dayNumber: string, monthName: string, isFutureEvent: boolean)
   return `${day}/${months[monthLower]}/${currentYear}`;
 }
 
-export default async function scrape(url: string | URL | Request) {
-  const response = await fetch(url);
+export default async function scrape(events: string | URL | Request) {
+  const response = await fetch(events);
   const html = await response.text();
 
   const $ = cheerio.load(html);

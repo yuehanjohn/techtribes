@@ -1,8 +1,8 @@
 # TODO
 
+- add a separate link for the meetup homepage
 - fix how 404 page looks
 - show counters next to headings, e.g. "Upcoming events (10)"
-- add a separate link for the meetup homepage
 - rename repo, setup domain
 - move Jekyll files to subdirectory
 - fix issue with flag emoji not rendering on Android etc.
