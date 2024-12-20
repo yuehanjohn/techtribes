@@ -9,33 +9,37 @@ const future: any[] = [];
 const past: any[] = [];
 
 async function scrape(community: { name: string; url: string }) {
-  const { url } = community;
-  let scraped: any;
-  if (url.startsWith("https://www.meetup.com/")) {
-    scraped = await scrapeMeetup(url);
-  } else if (url.startsWith("https://www.meetabit.com/")) {
-    scraped = await scrapeMeetabit(url);
-  }
-  if (scraped) {
-    const members = scraped.members;
-    const target = scraped.future ? future : past;
-    const data = scraped.future || scraped.past;
-    if (!scraped.future) {
-      const [day, month, year] = scraped.past.date.split("/");
-      if (
-        new Date(+year, +month - 1, +day).getTime() <
-        Date.now() - 31536000000
-      ) {
-        console.warn(`Inactive: ${community.name} (${scraped.past.date})`);
-        return;
-      }
+  try {
+    const { url } = community;
+    let scraped: any;
+    if (url.startsWith("https://www.meetup.com/")) {
+      scraped = await scrapeMeetup(url);
+    } else if (url.startsWith("https://www.meetabit.com/")) {
+      scraped = await scrapeMeetabit(url);
     }
-    target.push({
-      ...community,
-      members,
-      date: data.date,
-      event: data.link,
-    });
+    if (scraped) {
+      const members = scraped.members;
+      const target = scraped.future ? future : past;
+      const data = scraped.future || scraped.past;
+      if (!scraped.future) {
+        const [day, month, year] = scraped.past.date.split("/");
+        if (
+          new Date(+year, +month - 1, +day).getTime() <
+          Date.now() - 31536000000
+        ) {
+          console.warn(`Inactive: ${community.name} (${scraped.past.date})`);
+          return;
+        }
+      }
+      target.push({
+        ...community,
+        members,
+        date: data.date,
+        event: data.link,
+      });
+    }
+  } catch (error) {
+    console.warn(`Error scraping "${community.name}":`, error);
   }
 }
 
