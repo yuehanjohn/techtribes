@@ -2,7 +2,7 @@
   <div class="row g-0">
     <div class="col-auto">
       <div class="card-body">
-        <a href="{{ community.url }}">
+        <a href="{{ community.site | default: community.events }}">
           <div
             class="avatar avatar-md"
             style="background-image: url({{ community.logo }})"
@@ -15,7 +15,9 @@
         <div class="row">
           <div class="col">
             <h3 class="mb-0">
-              <a href="{{ community.url }}">{{ community.name }}</a>
+              <a href="{{ community.site | default: community.events }}"
+                >{{ community.name }}</a
+              >
             </h3>
           </div>
           <div class="col-auto fs-3 text-muted">

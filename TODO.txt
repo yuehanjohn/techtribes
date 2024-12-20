@@ -1,7 +1,7 @@
 # TODO
 
-- add a separate link for the meetup homepage
 - fix how 404 page looks
+- add more site URLs
 - show counters next to headings, e.g. "Upcoming events (10)"
 - rename repo, setup domain
 - move Jekyll files to subdirectory

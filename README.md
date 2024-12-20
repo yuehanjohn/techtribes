@@ -23,7 +23,8 @@ A sample entry looks like this:
 
 - `location` should be the city name and country (Finland), separated by a comma
 - `tags` should reuse existing ones if possible and keep their spelling consistent
-- `url` should be the URL of the community's homepage on [Meetabit](https://www.meetabit.com/) or [Meetup.com](https://www.meetup.com/) (if you'd like to add another site, you will need send a PR for that scraper first)
+- `events` should be the URL of the community's homepage on [Meetabit](https://www.meetabit.com/) or [Meetup.com](https://www.meetup.com/) (if you'd like to add another site, you will need send a PR for that scraper first)
+- `site` is an optional URL of the community's homepage, such as "https://helsinkijs.org" - if it is not provided, the events URL will be used
 - `logo` should be the URL of the community's logo, ideally 128x128 pixels in PNG format hosted on a short URL such that if your logo changes, the URL won't
 
 ## Development

@@ -109,6 +109,7 @@
   tags:
     - Python
   events: https://www.meetup.com/helpy-meetups/
+  site: https://helsinki-python.github.io/
   logo: https://helsinki-python.github.io/logo/HelPy.svg
 - name: Helsinki Ruby Brigade
   location: Helsinki, Finland
@@ -129,6 +130,7 @@
     - TypeScript
     - Node.js
   events: https://www.meetabit.com/communities/helsinkijs
+  site: https://helsinkijs.org
   logo: https://helsinkijs.org/assets/icon.180.png
 - name: HelsinkiOS
   location: Helsinki, Finland
@@ -136,6 +138,7 @@
     - iOS
     - Mac
   events: https://www.meetup.com/HelsinkiOS-Mac-and-iOS-Developers/
+  site: https://helsinkios.org/
   logo: >-
     https://pbs.twimg.com/profile_images/378800000416246738/eff951992be034d6d68b756162944fd7_400x400.png
 - name: Kubernetes Turku
