@@ -131,6 +131,13 @@
   url: https://www.meetabit.com/communities/tamperejs
   logo: >-
     https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1513799543/wdg367emtnrtzzjz6tug.png?_a=BACCd2Ev
+- name: Tech Excellent Finland
+  location: Helsinki, Finland
+  tags:
+    - Agile
+  url: https://www.meetup.com/tech-excellence-finland/
+  logo: >-
+    https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1619212786/fzgyu78uameko9u2mrfs.png?_a=BACCd2Ev
 - name: Turku <3 Frontend
   location: Turku, Finland
   tags:
