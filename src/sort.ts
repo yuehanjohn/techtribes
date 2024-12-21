@@ -2,7 +2,7 @@ import * as fs from "fs";
 import * as yaml from "js-yaml";
 
 (async function main() {
-  const file = fs.readFileSync("_data/input.yml", "utf8");
+  const file = fs.readFileSync("site/_data/input.yml", "utf8");
   const input = yaml.load(file) as any[];
 
   const names = new Set<string>();
@@ -14,5 +14,5 @@ import * as yaml from "js-yaml";
   });
 
   const sorted = input.sort((a, b) => a.name.localeCompare(b.name));
-  fs.writeFileSync("_data/input.yml", yaml.dump(sorted));
+  fs.writeFileSync("site/_data/input.yml", yaml.dump(sorted));
 })();
