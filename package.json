@@ -1,19 +1,18 @@
 {
   "name": "meetups",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "jekyll serve --source site --livereload --host 0.0.0.0",
-    "build": "tsx src/build.ts",
-    "sort": "tsx src/sort.ts"
+    "build": "node --no-warnings --experimental-strip-types src/build.ts",
+    "sort": "node --no-warnings --experimental-strip-types src/sort.ts"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "cheerio": "^1.0.0",
-    "js-yaml": "^4.1.0",
-    "tsx": "^4.19.2"
+    "js-yaml": "^4.1.0"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
