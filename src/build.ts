@@ -3,7 +3,7 @@ import * as yaml from "js-yaml";
 import scrapeMeetup from "./scrapers/meetup";
 import scrapeMeetabit from "./scrapers/meetabit";
 
-const file = fs.readFileSync("_data/input.yml", "utf8");
+const file = fs.readFileSync("site/_data/input.yml", "utf8");
 const input = yaml.load(file) as any[];
 const future: any[] = [];
 const past: any[] = [];
@@ -47,7 +47,7 @@ async function scrape(community: { name: string; events: string }) {
   const date = (event: any) => +event.date.split("/").reverse().join("");
   await Promise.all(input.map(scrape));
   fs.writeFileSync(
-    "_data/output.yml",
+    "site/_data/output.yml",
     yaml.dump({
       future: future.sort((a, b) => date(a) - date(b)),
       past: past.sort((a, b) => date(b) - date(a)),

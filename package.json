@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "jekyll serve --livereload --host 0.0.0.0",
+    "start": "jekyll serve --source site --livereload --host 0.0.0.0",
     "build": "tsx src/build.ts",
     "sort": "tsx src/sort.ts"
   },
