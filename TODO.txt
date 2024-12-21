@@ -1,6 +1,5 @@
 # TODO
 
-- update favicon
 - add home page
 - add country, city specific pages
 - add tag specific pages
