@@ -1,5 +1,6 @@
 # TODO
 
+- provide umami id via config
 - move input to a separate data directory in the root
 - add base url to all the links
 - add country, city specific pages, e.g. techtrib.es/fi/helsinki 
