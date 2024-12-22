@@ -3,7 +3,7 @@ import * as yaml from "js-yaml";
 import scrapeMeetup from "./scrapers/meetup.ts";
 import scrapeMeetabit from "./scrapers/meetabit.ts";
 
-const file = fs.readFileSync("site/_data/input.yml", "utf8");
+const file = fs.readFileSync("data/communities.yml", "utf8");
 const input = yaml.load(file) as any[];
 const future: any[] = [];
 const past: any[] = [];

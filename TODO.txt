@@ -1,6 +1,5 @@
 # TODO
 
-- move input to a separate data directory in the root, fix link in README
 - add country, city specific pages, e.g. techtrib.es/fi/helsinki 
 - add home page
 - add tag specific pages, e.g. techtrib.es/javascript
