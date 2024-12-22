@@ -49,3 +49,8 @@ npm start
 ```
 
 The pages will now automatically reload whenever you edit any file. Also, you can view the pages from mobile devices connected to the same network.
+
+## Built with
+
+- [Tabler](https://tabler.io/)
+- [Jekyll](https://jekyllrb.com/)
