@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a site listing tech community events in Finland. Only active communities with events in the past year are included. The events are updated automatically once a day.
+This is a site listing tech community events worldwide. Only active communities with events in the past year are included. The events are updated automatically once a day.
 
 ## Add a community
 
