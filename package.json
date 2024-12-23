@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "jekyll serve --source site --livereload --host 0.0.0.0",
+    "start": "jekyll serve --incremental --source site --livereload --host 0.0.0.0",
     "build": "node --no-warnings --experimental-strip-types src/build.ts",
     "sort": "node --no-warnings --experimental-strip-types src/sort.ts"
   },
