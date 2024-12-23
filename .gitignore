@@ -1,3 +1,4 @@
 node_modules
 site/_data/output.yml
 _site
+.jekyll-metadata
