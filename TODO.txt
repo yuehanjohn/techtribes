@@ -5,6 +5,5 @@
 - add tag specific pages, e.g. techtrib.es/javascript
 - add meta descriptions
 - add sitemap
-- provide umami id via config
 - show counters next to headings, e.g. "Upcoming events (10)"
 
