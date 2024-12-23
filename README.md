@@ -6,7 +6,7 @@ This is a site listing tech community events worldwide. Only active communities 
 
 ## Add a community
 
-To add or update a community listing, create a pull request with changes to [this file](site/_data/input.yml). The communities are listed in alphabetical order by name, so make sure to add it in the correct place or run `npm run sort` before committing.
+To add or update a community listing, create a pull request with changes to [this file](data/communities.yml). The communities are listed in alphabetical order by name, so make sure to add it in the correct place or run `npm run sort` before committing.
 
 A sample entry looks like this:
 
