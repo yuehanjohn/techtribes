@@ -1,6 +1,7 @@
 # TODO
 
-- load icons from assets directory instead of inlining them
+- fix 404 page
+- fix dark mode, note plus icon color is likely to break
 - add country, city specific pages, e.g. techtrib.es/fi/helsinki 
 - add home page
 - add tag specific pages, e.g. techtrib.es/javascript
