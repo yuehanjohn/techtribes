@@ -2,6 +2,7 @@
 
 - fix 404 page
 - fix dark mode, note plus icon color is likely to break
+- optimize images, use loading="lazy"
 - add country, city specific pages, e.g. techtrib.es/fi/helsinki 
 - add home page
 - add tag specific pages, e.g. techtrib.es/javascript
