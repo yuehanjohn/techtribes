@@ -3,11 +3,14 @@
     <div class="col-auto">
       <div class="card-body">
         <a href="{{ community.site | default: community.events }}">
-          <div
+          <img
+            src="{{ community.logo }}"
+            width="64"
+            height="64"
             class="avatar logo"
-            style="background-image: url({{ community.logo }})"
-            title="{{ community.name }} logo"
-          ></div>
+            alt="{{ community.name }} logo"
+            loading="lazy"
+          />
         </a>
       </div>
     </div>
