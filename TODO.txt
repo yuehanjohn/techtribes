@@ -5,7 +5,6 @@
 - add country, city specific pages, e.g. techtrib.es/fi/helsinki 
 - add home page
 - add tag specific pages, e.g. techtrib.es/javascript
-- add meta descriptions
 - add sitemap
 - show counters next to headings, e.g. "Upcoming events (10)"
 - find a more stable solution than uncss
