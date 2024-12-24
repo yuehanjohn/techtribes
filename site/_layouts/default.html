@@ -8,9 +8,11 @@
       name="description"
       content="Active tech community events worldwide."
     />
+    {% assign file = site.static_files | where: "path", "/css/tabler.css" |
+    first %}
     <link
       rel="stylesheet"
-      href="{{ site.url }}/css/tabler.css{{ site.time | date:'?v=%s' }}"
+      href="{{ site.url }}/css/tabler.css{{ file.modified_time | date:'?v=%s' }}"
     />
     <style>
       .icon-tabler {
