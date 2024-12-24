@@ -1,7 +1,7 @@
 # TODO
 
 - fix 404 page
-- fix dark mode, note plus icon color is likely to break
+- fix dark mode, note plus, arrow-left icon colors are likely to break
 - optimize images, use loading="lazy"
 - add country, city specific pages, e.g. techtrib.es/fi/helsinki 
 - add home page
