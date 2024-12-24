@@ -8,11 +8,11 @@
       name="description"
       content="Active tech community events worldwide."
     />
-    {% assign file = site.static_files | where: "path", "/css/tabler.css" |
-    first %}
+    {% assign file = site.static_files | where: "path", "/assets/css/tabler.css"
+    | first %}
     <link
       rel="stylesheet"
-      href="{{ site.url }}/css/tabler.css{{ file.modified_time | date:'?v=%s' }}"
+      href="{{ site.url }}/assets/css/tabler.css{{ file.modified_time | date:'?v=%s' }}"
     />
     <style>
       .icon-tabler {
@@ -26,25 +26,25 @@
     </style>
     <link
       rel="icon"
-      href="{{ site.url }}/icons/favicon.ico"
+      href="{{ site.url }}/assets/icons/favicon.ico"
       type="image/x-icon"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="{{ site.url }}/icons/favicon-16x16.png"
+      href="{{ site.url }}/assets/icons/favicon-16x16.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="{{ site.url }}/icons/favicon-32x32.png"
+      href="{{ site.url }}/assets/icons/favicon-32x32.png"
     />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="{{ site.url }}/icons/apple-touch-icon.png"
+      href="{{ site.url }}/assets/icons/apple-touch-icon.png"
     />
   </head>
   <body class="theme-dark-auto">

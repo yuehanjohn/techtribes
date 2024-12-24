@@ -1,6 +1,5 @@
 # TODO
 
-- move assets to assets directory
 - load icons from assets directory instead of inlining them
 - add country, city specific pages, e.g. techtrib.es/fi/helsinki 
 - add home page
