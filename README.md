@@ -25,7 +25,7 @@ A sample entry looks like this:
 - `tags` should reuse existing ones if possible and keep their spelling consistent
 - `events` should be the URL of the community's homepage on [Meetabit](https://www.meetabit.com/) or [Meetup.com](https://www.meetup.com/) (if you'd like to add another site, you will need send a PR for that scraper first)
 - `site` is an optional URL of the community's homepage, such as `https://helsinkijs.org` - if it is not provided, the events URL will be used
-- `logo` should be the URL of the community's logo, ideally 128x128 pixels in PNG format hosted on a short URL such that if your logo changes, the URL won't
+- `logo` should be the URL of the community's logo, ideally 128x128 pixels in PNG format; rather than hotlinking, you can also include the image in the pull request in the `site/assets/logos` directory with the filename being the slug of the community name and the value set to it, e.g. `logo: helsinkijs.png`
 
 ## Development
 
