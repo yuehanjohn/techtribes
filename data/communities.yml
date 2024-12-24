@@ -4,75 +4,66 @@
     - Agile
   events: https://www.meetup.com/agile-finland-helsinki-coaching-circle/
   site: https://www.agile.fi/
-  logo: >-
-    https://scontent.fqlf1-2.fna.fbcdn.net/v/t39.30808-6/326703907_716402043165841_4106632538960170518_n.png?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=M_d1wd2tbwIQ7kNvgHIErMQ&_nc_zt=23&_nc_ht=scontent.fqlf1-2.fna&_nc_gid=A-XvfJXWAFv-c_SCcvqhft3&oh=00_AYDLg1Vak4ozk3mtyW93c3mjYTkA5INezuGqx9mLT3B0zw&oe=676B7221
+  logo: agile-finland.png
 - name: archipylago
   location: Turku, Finland
   tags:
     - Python
   events: https://www.meetabit.com/communities/archipylago
   site: https://archipylago.dev/
-  logo: >-
-    https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1445797129/lcc1h6mul4clmqygyhfv.png?_a=BACCd2Ev
+  logo: archipylago.png
 - name: Aurajoki Overflow
   location: Turku, Finland
   tags:
     - Software Development
   events: https://www.meetabit.com/communities/aurajoki-overflow
   site: https://aurajoki-overflow.github.io/website/
-  logo: >-
-    https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1659504903/ssxuuuii1ki5asxvx7hd.png?_a=BACCd2Ev
+  logo: aurajoki-overflow.png
 - name: AWS User Group Finland
   location: Helsinki, Finland
   tags:
     - AWS
   events: https://www.meetup.com/awsfin/
   site: https://awsfin.org/
-  logo: >-
-    https://secure.meetupstatic.com/photos/member/8/6/a/f/preview_320914479.webp?w=256
+  logo: aws-user-group-finland.png
 - name: Azure and Friends
   location: Helsinki, Finland
   tags:
     - Azure
   events: https://www.meetup.com/azure-and-friends/
   site: https://www.azureandfriends.com/
-  logo: >-
-    https://secure.meetupstatic.com/photos/member/6/9/1/f/preview_287726911.webp?w=256
+  logo: azure-and-friends.png
 - name: C++ Helsinki
   location: Helsinki, Finland
   tags:
     - C++
   events: https://www.meetup.com/cpphelsinki/
-  logo: >-
-    https://pbs.twimg.com/profile_images/1637836236378324994/sjBW_HGr_400x400.jpg
+  logo: c-helsinki.png
 - name: Databricks user group Finland
   location: Helsinki, Finland
   tags:
     - Databricks
   events: https://www.meetup.com/meetup-group-ssatkbta/
-  logo: >-
-    https://pbs.twimg.com/profile_images/1712873392163246080/PneUlcjM_400x400.jpg
+  logo: databricks-user-group-finland.png
 - name: DevOps Finland
   location: Helsinki, Finland
   tags:
     - DevOps
   events: https://www.meetup.com/devops-finland/
-  logo: >-
-    https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1443901479/afwzk4xexyf8bsjwdw0a.png?_a=BACCd2Ev
+  logo: devops-finland.png
 - name: Finland Azure User Group
   location: Helsinki, Finland
   tags:
     - Azure
     - DevOps
   events: https://www.meetup.com/finland-azure-user-group/
-  logo: >-
-    https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/240px-Microsoft_Azure.svg.png
+  logo: finland-azure-user-group.png
 - name: Finnish Testing Meetup Group
   location: Helsinki, Finland
   tags:
     - QA
   events: https://www.meetup.com/finland-testing-meetup-group/
-  logo: https://secure.meetupstatic.com/photos/event/8/1/8/e/clean_513093166.webp
+  logo: finnish-testing-meetup-group.png
 - name: Future Frontend
   location: Helsinki, Finland
   tags:
@@ -80,54 +71,48 @@
     - JavaScript
   events: https://www.meetabit.com/communities/future-frontend
   site: https://futurefrontend.com/
-  logo: >-
-    https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1705325850/rbmdj9m6ym7ub5uplvbz.jpg
+  logo: future-frontend.png
 - name: HelSec
   location: Helsinki, Finland
   tags:
     - Security
   events: https://www.meetup.com/HelSec/
   site: https://helsec.fi/
-  logo: >-
-    https://pbs.twimg.com/profile_images/1461060980809646086/6DO3gE0Z_400x400.jpg
+  logo: helsec.png
 - name: Helsinki Clojure Meetup
   location: Helsinki, Finland
   tags:
     - Clojure
   events: https://www.meetup.com/helsinki-clojure-meetup/
   site: https://clojurefinland.github.io/
-  logo: >-
-    https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Clojure_logo.svg/256px-Clojure_logo.svg.png
+  logo: helsinki-clojure-meetup.png
 - name: Helsinki Data Analytics & Science Meetup
   location: Helsinki, Finland
   tags:
     - Data Science
   events: https://www.meetup.com/helsinki-data-analytics-science-meetup/
   site: https://dainstudios.com/dain_meetup/
-  logo: >-
-    https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Ni496ibce18rCKv2BOTcZGZUh-NJihEVZQ&s
+  logo: helsinki-data-analytics-science-meetup.png
 - name: Helsinki Gophers
   location: Helsinki, Finland
   tags:
     - Go
   events: https://www.meetup.com/Helsinki-Gophers/
-  logo: >-
-    https://secure.meetupstatic.com/photos/member/a/a/7/8/preview_305263640.webp?w=256
+  logo: helsinki-gophers.png
 - name: Helsinki Python
   location: Helsinki, Finland
   tags:
     - Python
   events: https://www.meetup.com/helpy-meetups/
   site: https://helsinki-python.github.io/
-  logo: https://helsinki-python.github.io/logo/HelPy.svg
+  logo: helsinki-python.png
 - name: Helsinki Ruby Brigade
   location: Helsinki, Finland
   tags:
     - Ruby
   events: https://www.meetup.com/rubybrigade/
   site: https://rubybrigade.fi/
-  logo: >-
-    https://cdn.masto.host/rubysocial/accounts/avatars/110/135/225/663/078/522/original/1a308bc37d47e64e.png
+  logo: helsinki-ruby-brigade.png
 - name: Helsinki Security Meetup
   location: Helsinki, Finland
   tags:
@@ -141,7 +126,7 @@
     - Node.js
   events: https://www.meetabit.com/communities/helsinkijs
   site: https://helsinkijs.org
-  logo: https://helsinkijs.org/assets/icon.180.png
+  logo: helsinkijs.png
 - name: HelsinkiOS
   location: Helsinki, Finland
   tags:
@@ -149,95 +134,85 @@
     - Mac
   events: https://www.meetup.com/HelsinkiOS-Mac-and-iOS-Developers/
   site: https://helsinkios.org/
-  logo: >-
-    https://pbs.twimg.com/profile_images/378800000416246738/eff951992be034d6d68b756162944fd7_400x400.png
+  logo: helsinkios.png
 - name: Kubernetes Turku
   location: Turku, Finland
   tags:
     - Kubernetes
   events: https://www.meetup.com/Kubernetes-Turku/
-  logo: https://cloudnativenordics.com/snowflake_white_border.png
+  logo: kubernetes-turku.png
 - name: Microsoft Security User Group Finland
   location: Helsinki, Finland
   tags:
     - Microsoft
     - Security
   events: https://www.meetup.com/microsoft-security-user-group-finland/
-  logo: https://secure.meetupstatic.com/photos/event/5/2/d/clean_523081325.webp
+  logo: microsoft-security-user-group-finland.png
 - name: Product Tank Helsinki
   location: Helsinki, Finland
   tags:
     - Product
   events: https://www.meetup.com/ProductTank-Helsinki/
-  logo: >-
-    https://secure.meetupstatic.com/photos/member/6/e/e/0/preview_319768384.webp?w=256
+  logo: product-tank-helsinki.png
 - name: SRE Finland
   location: Helsinki, Finland
   tags:
     - SRE
   events: https://www.meetup.com/SRE-Finland/
-  logo: https://secure.meetupstatic.com/photos/event/c/2/1/9/clean_519889689.webp
+  logo: sre-finland.png
 - name: TampereJS
   location: Tampere, Finland
   tags:
     - JavaScript
   events: https://www.meetabit.com/communities/tamperejs
   site: https://tamperejs.github.io/
-  logo: >-
-    https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1513799543/wdg367emtnrtzzjz6tug.png?_a=BACCd2Ev
+  logo: tamperejs.png
 - name: Tech Excellent Finland
   location: Helsinki, Finland
   tags:
     - Agile
   events: https://www.meetup.com/tech-excellence-finland/
-  logo: >-
-    https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1619212786/fzgyu78uameko9u2mrfs.png?_a=BACCd2Ev
+  logo: tech-excellent-finland.png
 - name: Turku <3 Frontend
   location: Turku, Finland
   tags:
     - JavaScript
   events: https://www.meetabit.com/communities/turku-3-frontend
   site: https://turkufrontend.fi/
-  logo: >-
-    https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1460627359/vh71lfpxpqrwvnsdlthz.jpg?_a=BACCd2Ev
+  logo: turku-3-frontend.png
 - name: Turku AI
   location: Turku, Finland
   tags:
     - AI
   events: https://www.meetup.com/turku-ai/
-  logo: >-
-    https://pbs.twimg.com/profile_images/1003901707691192320/mBnA8CFh_400x400.jpg
+  logo: turku-ai.png
 - name: Turku Mobile
   location: Turku, Finland
   tags:
     - Mobile
   events: https://www.meetabit.com/communities/turkumobile
-  logo: >-
-    https://res.cloudinary.com/toughbyte/image/upload/b_transparent,c_pad,g_center,h_230,w_230/v1701890798/i3sppzemxpslf3zxucbs.jpg?_a=BACCd2Ev
+  logo: turku-mobile.png
 - name: Turku WordPress Meetup
   location: Turku, Finland
   tags:
     - WordPress
   events: https://www.meetup.com/turku-wordpress-meetup/
-  logo: >-
-    https://secure.meetupstatic.com/photos/member/4/e/4/4/preview_320840036.webp?w=256
+  logo: turku-wordpress-meetup.png
 - name: TurkuSec
   location: Turku, Finland
   tags:
     - Security
   events: https://www.meetup.com/turkusec/
   site: https://turkusec.fi/
-  logo: https://pbs.twimg.com/profile_images/723892196592738304/3owbpn9N_400x400.jpg
+  logo: turkusec.png
 - name: Women4Cyber Finland
   location: Helsinki, Finland
   events: https://www.meetup.com/women4cyber-finland/
   site: https://www.women4cyberfinland.com/
-  logo: >-
-    https://media.licdn.com/dms/image/v2/C560BAQF3cBTaRKZzDg/company-logo_200_200/company-logo_200_200/0/1650275003860?e=2147483647&v=beta&t=JU7RaJ8gsGizSJXs3cjJrPNHOZI_j6HvGUsJ-FvzJXU
+  logo: women4cyber-finland.png
 - name: WordPress Helsinki
   location: Helsinki, Finland
   tags:
     - WordPress
   events: https://www.meetup.com/WPHelsinki/
-  logo: >-
-    https://secure.meetupstatic.com/photos/member/4/e/4/4/preview_320840036.webp?w=256
+  logo: wordpress-helsinki.png

@@ -1,4 +1,4 @@
-import * as fs from "fs";
+import { promises as fs } from "fs";
 import * as path from "path";
 
 (async function () {
@@ -13,5 +13,5 @@ import * as path from "path";
   }
 
   const cssContent = await response.text();
-  fs.writeFileSync(file, cssContent);
+  await fs.writeFile(file, cssContent);
 })();

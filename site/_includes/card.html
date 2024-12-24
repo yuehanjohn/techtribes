@@ -4,7 +4,7 @@
       <div class="card-body">
         <a href="{{ community.site | default: community.events }}">
           <img
-            src="{{ community.logo }}"
+            src="{% assign protocol = community.logo | slice: 0, 4 %}{% if protocol == 'http' %}{{ community.logo }}{% else %}{{ site.url }}/assets/logos/{{ community.logo }}{% endif %}"
             width="64"
             height="64"
             class="avatar logo"

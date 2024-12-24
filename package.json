@@ -8,7 +8,8 @@
     "css": "node --no-warnings --experimental-strip-types src/css.ts",
     "uncss": "NODE_NO_WARNINGS=1 uncss http://0.0.0.0:4000 > site/assets/css/tabler.css",
     "scrape": "node --no-warnings --experimental-strip-types src/scrape.ts",
-    "sort": "node --no-warnings --experimental-strip-types src/sort.ts"
+    "sort": "node --no-warnings --experimental-strip-types src/sort.ts",
+    "images": "node --no-warnings --experimental-strip-types src/images.ts"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^22.10.2",
+    "sharp": "^0.33.5",
     "uncss": "^0.17.3"
   }
 }
