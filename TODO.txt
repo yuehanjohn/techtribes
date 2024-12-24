@@ -1,6 +1,6 @@
 # TODO
 
-- fix dark mode, note plus, arrow-left icon colors are likely to break
+- fix dark mode - note plus, arrow-left icon colors are likely to break
 - add country, city specific pages, e.g. techtrib.es/fi/helsinki 
 - add home page
 - add tag specific pages, e.g. techtrib.es/javascript

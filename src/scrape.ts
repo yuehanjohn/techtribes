@@ -1,10 +1,8 @@
-import * as fs from "fs";
+import { promises as fs } from "fs";
 import * as yaml from "js-yaml";
 import scrapeMeetup from "./scrapers/meetup.ts";
 import scrapeMeetabit from "./scrapers/meetabit.ts";
 
-const file = fs.readFileSync("data/communities.yml", "utf8");
-const input = yaml.load(file) as any[];
 const future: any[] = [];
 const past: any[] = [];
 
@@ -44,9 +42,11 @@ async function scrape(community: { name: string; events: string }) {
 }
 
 (async function main() {
+  const file = await fs.readFile("data/communities.yml", "utf8");
+  const input = yaml.load(file) as any[];
   const date = (event: any) => +event.date.split("/").reverse().join("");
   await Promise.all(input.map(scrape));
-  fs.writeFileSync(
+  await fs.writeFile(
     "site/_data/output.yml",
     yaml.dump({
       future: future.sort((a, b) => date(a) - date(b)),
