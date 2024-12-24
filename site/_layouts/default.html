@@ -4,7 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.url }}/css/tabler.css" />
+    <link
+      rel="stylesheet"
+      href="{{ site.url }}/css/tabler.css{{ site.time | date:'?v=%s' }}"
+    />
     <style>
       .icon-tabler {
         width: 32px;
