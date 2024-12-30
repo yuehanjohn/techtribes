@@ -23,6 +23,7 @@ function parseDate(
   const monthLower = monthName.toLowerCase().trim();
   const day = dayNumber.padStart(2, "0");
   const currentDate = new Date();
+  currentDate.setHours(0, 0, 0, 0);
   const currentYear = currentDate.getFullYear();
 
   const eventDate = new Date(
