@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "jekyll serve --incremental --source site --livereload --host 0.0.0.0",
+    "start": "jekyll serve --source site --livereload --host 0.0.0.0",
     "build": "jekyll build --source site",
     "css": "node --no-warnings --experimental-strip-types src/css.ts",
     "uncss": "NODE_NO_WARNINGS=1 uncss http://0.0.0.0:4000 > site/assets/css/tabler.css",
