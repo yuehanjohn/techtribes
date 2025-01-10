@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ page.title | escape }}</title>
-    <meta name="description" content="{{ page.description | escape }}" />
-    <meta property="og:title" content="{{ page.title | escape }}" />
+    <title>{{ site.title | escape }}</title>
+    <meta name="description" content="{{ site.description | escape }}" />
+    <meta property="og:title" content="{{ site.title | escape }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="{{ page.description | escape }}" />
+    <meta property="og:description" content="{{ site.description | escape }}" />
     <meta property="og:image" content="{{ site.url }}/assets/social/og.png" />
     {% assign file = site.static_files | where: "path", "/assets/css/tabler.css"
     | first %}
