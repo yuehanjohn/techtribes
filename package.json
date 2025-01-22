@@ -11,8 +11,8 @@
     "sort": "node --no-warnings --experimental-strip-types src/sort.ts",
     "images": "node --no-warnings --experimental-strip-types src/images.ts"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Oleg Podsechin",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "cheerio": "^1.0.0",
