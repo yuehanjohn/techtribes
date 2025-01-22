@@ -99,6 +99,12 @@
     - Go
   events: https://www.meetup.com/Helsinki-Gophers/
   logo: helsinki-gophers.png
+- name: Helsinki Java User Group
+  location: Helsinki, Finland
+  tags:
+    - Java
+  events: https://www.meetup.com/helsinki-java-user-group/
+  logo: helsinki-java-user-group.png
 - name: Helsinki Python
   location: Helsinki, Finland
   tags:
