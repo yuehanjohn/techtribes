@@ -2,6 +2,9 @@
   "name": "techtribes",
   "version": "1.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=22.6.0"
+  },
   "scripts": {
     "start": "jekyll serve --source site --livereload --host 0.0.0.0",
     "build": "jekyll build --source site",
@@ -11,8 +14,8 @@
     "sort": "node --no-warnings --experimental-strip-types src/sort.ts",
     "images": "node --no-warnings --experimental-strip-types src/images.ts"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Oleg Podsechin",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "cheerio": "^1.0.0",
