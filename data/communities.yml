@@ -99,6 +99,13 @@
     - Go
   events: https://www.meetup.com/Helsinki-Gophers/
   logo: helsinki-gophers.png
+- name: Helsinki HN
+  location: Helsinki, Finland
+  tags:
+    - Hacker News
+  events: https://bit.ly/helsinkihn
+  json: https://gist.githubusercontent.com/olegp/f34469b65286c057964414c4aaf5bf47/raw
+  logo: helsinki-hn.png
 - name: Helsinki Java User Group
   location: Helsinki, Finland
   tags:

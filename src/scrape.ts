@@ -1,19 +1,26 @@
 import { promises as fs } from "fs";
 import * as yaml from "js-yaml";
+import scrapeJson from "./scrapers/json.ts";
 import scrapeMeetup from "./scrapers/meetup.ts";
 import scrapeMeetabit from "./scrapers/meetabit.ts";
 
 const future: any[] = [];
 const past: any[] = [];
 
-async function scrape(community: { name: string; events: string }) {
+async function scrape(community: {
+  name: string;
+  events: string;
+  json: string;
+}) {
   try {
-    const { events: events } = community;
+    const { events, json } = community;
     let scraped: any;
     if (events.startsWith("https://www.meetup.com/")) {
       scraped = await scrapeMeetup(events);
     } else if (events.startsWith("https://www.meetabit.com/")) {
       scraped = await scrapeMeetabit(events);
+    } else {
+      scraped = await scrapeJson(json);
     }
     if (scraped) {
       const members = scraped.members;
