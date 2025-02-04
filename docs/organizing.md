@@ -8,7 +8,7 @@ You should also pick a name for your meetup. It should be short and easy to reme
 
 ## 2. Co-organizers
 
-You should aim to have 2-3 co-organizers. This will help you share the workload and ensure that at least some of you can always attend the meetup.
+You should aim to have 2-3 co-organizers. This will help you share the workload and ensure that you can always attend the meetup.
 
 ## 2. Audience
 
@@ -18,9 +18,11 @@ You should decide who you want your target audience to be and try to have speake
 
 The easiest format is to have each meetup hosted by a different sponsor company. The sponsor should take care of providing the venue, food and drinks as well as ideally one technical speaker.
 
-The events should take place in the evening on weekdays, Fridays are best avoided since attendees may have other plans then. 18:00 is a good time to start the event. Some people are often a bit late, so you should aim to start the talks at 18:15.
+The events should take place in the evening on weekdays, Fridays are best avoided since attendees may have other plans then. 17:30-18:00 is a good time to start the event. Some people are often a bit late, so you should aim to start the talks at 18:15. If you start early (17:30), then food can be available already and you can finish it after the talk(s). Other option is to have the food arrive only after the talks.
 
-You should aim to have 1-3 talks, each lasting 20-25 minutes, with 5 minutes for questions. Let the speakers know about this in advance and remind them before the talk starts. It is worth having a longer break in between some talks if you have more than 2 and to leave time for socializing afterwards.
+Typically you should aim to have 1-3 talks, each lasting 20-25 minutes, with 5 minutes for questions. Let the speakers know about this in advance and remind them before the talk starts. It is worth having a longer break in between some talks if you have more than 2 and to leave time for socializing afterwards.
+
+One option is to go the "deep dive" route and book a single speaker that really knows their topic well and is willing to talk 1-1.5h. The longer format allows more interaction with the audience and can be a good option if you want to try an alternative approach.
 
 ## 4. Process
 
@@ -34,7 +36,7 @@ Once a sponsor is known, propose dates to them. Try to pick dates on which at le
 
 Once a date is set, reach out to potential speakers with the specific date. If a speaker isn't available on that, you can reach out to them again in the future. Once at least 1-2 speakers are confirmed, you can publish the event.
 
-Note that for free events you're likely to get a third no shows, so to ensure you fill all the seats overbook by 50%.
+Note that for free events you're likely to get a third no shows, so to ensure you fill all the seats overbook by 50%. Another good strategy is to remind people to update their registration close to the event to reduce the amount of no-shows.
 
 If you're ever running out of potential sponsors or speakers, you can reach out to individuals you know who may be able to help, ask for help via your mailing list or post about it on social media. It should be possible to find both sponsors and speakers on short notice.
 
@@ -47,18 +49,22 @@ To promote the event you should use the following channels, in order of preferen
 - Relevant online communities, see below
 - Social media, primarily LinkedIn and perhaps Bluesky and X; Facebook is no longer a good channel
 
-## 6. Relevant online communities in Finland
+## 6. After the event
+
+In case you recorded the event, it is a good practice to share the recording with the participants after the event. That is also a good chance to thank for participation and mention the next event if the date is clear.
+
+## 7. Relevant online communities in Finland
 
 - [koodiklinikka Slack](https://app.slack.com/client/T03BQ3NU9/C0432KDDN) - any tech events
 - [Witted Network Slack](https://app.slack.com/client/T3CT3SL6S/C3C79NG9G) - any tech events
 - [Future Frontend Slack](https://app.slack.com/client/T795YLSUF/C77DNFH4G) - frontend events
 - [DataTribe Slack](https://app.slack.com/client/T066FK780G4) - data events
 
-## 6. Code of conduct
+## 8. Code of conduct
 
 Althought not needed at the beginning, once your community becomes big enough, you should introduce a code of conduct. You can use the [one from HelsinkiJS](https://github.com/helsinkijs/helsinkijs.org?tab=coc-ov-file) as a reference.
 
-## 7. Additional resources
+## 9. Additional resources
 
 - a [series of posts on organizing tech meetups](https://www.toughbyte.com/blog/what-is-a-meetup-and-why-should-i-care-1) on the Toughbyte blog
 - a [podcast on running a tech meetup](https://podcasts.apple.com/dk/podcast/2-oleg-podsechin-on-meetups-and-communities/id1137769226?i=1000373593644)
