@@ -8,7 +8,7 @@ You should also pick a name for your meetup. It should be short and easy to reme
 
 ## 2. Co-organizers
 
-You should aim to have 2-3 co-organizers. This will help you share the workload and ensure that you can always attend the meetup.
+You should aim to have 2-3 co-organizers. This will help you share the workload and ensure that at least some of you can always attend the meetup.
 
 ## 2. Audience
 
@@ -18,9 +18,9 @@ You should decide who you want your target audience to be and try to have speake
 
 The easiest format is to have each meetup hosted by a different sponsor company. The sponsor should take care of providing the venue, food and drinks as well as ideally one technical speaker.
 
-The events should take place in the evening on weekdays, Fridays are best avoided since attendees may have other plans then. 18:00 is a good time to start the event. Some peopel are often a bit late, so you should aim to start the talks at 18:15.
+The events should take place in the evening on weekdays, Fridays are best avoided since attendees may have other plans then. 18:00 is a good time to start the event. Some people are often a bit late, so you should aim to start the talks at 18:15.
 
-You should aim to have 1-3 talks, each lasting 20-25 minutes, with 5 minutes for questions. Let the speakers know about this in advance and remind them before the talk starts. It is worth having a longer break in betweeb some talks if you have more than 2 and to leave time for socializing afterwards.
+You should aim to have 1-3 talks, each lasting 20-25 minutes, with 5 minutes for questions. Let the speakers know about this in advance and remind them before the talk starts. It is worth having a longer break in between some talks if you have more than 2 and to leave time for socializing afterwards.
 
 ## 4. Process
 
@@ -32,7 +32,7 @@ Process potential sponsors on a first come first serve basis. Plan only one meet
 
 Once a sponsor is known, propose dates to them. Try to pick dates on which at least 2 of the organizers are available, so that someone can always attend the event to MC.
 
-Once a date is set, reach out to potential speakers with the specific date. If a speaker isn't availalbe on that, you can reach out to them again in the future. Once at least 1-2 speakers are confirmed, you can publish the event.
+Once a date is set, reach out to potential speakers with the specific date. If a speaker isn't available on that, you can reach out to them again in the future. Once at least 1-2 speakers are confirmed, you can publish the event.
 
 Note that for free events you're likely to get a third no shows, so to ensure you fill all the seats overbook by 50%.
 
