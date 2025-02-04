@@ -49,10 +49,10 @@ To promote the event you should use the following channels, in order of preferen
 
 ## 6. Relevant online communities in Finland
 
-- koodiklinikka Slack
-- Witted Network Slack
-- Future Frontend Slack
-- DataTribe Slack
+- [koodiklinikka Slack](https://app.slack.com/client/T03BQ3NU9/C0432KDDN) - any tech events
+- [Witted Network Slack](https://app.slack.com/client/T3CT3SL6S/C3C79NG9G) - any tech events
+- [Future Frontend Slack](https://app.slack.com/client/T795YLSUF/C77DNFH4G) - frontend events
+- [DataTribe Slack](https://app.slack.com/client/T066FK780G4) - data events
 
 ## 6. Code of conduct
 
