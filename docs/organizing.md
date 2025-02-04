@@ -4,7 +4,7 @@
 
 You should pick a topic that has a sufficiently wide appeal to attract a broad audience and get enough sponsors. It can be a language, a framework, a technology, an area of AI, etc. 
 
-You should also pick a name for your meetup. It should be short and easy to remember and include either the name of the city of the country it is in so it is easy to Google. You may also want to register a domain. You don't necessarily need to create a site right away and instead can redirect the domain to your community page on whichever platform you're using. We recommend using [Meetabit](https://www.meetabit.com/) :)
+You should also pick a name for your meetup. It should be short and easy to remember and include either the name of the city of the country it is in so it is easy to Google. You may also want to register a domain. You don't necessarily need to create a site right away and instead can redirect the domain to your community page on whichever platform you're using, such as [Meetabit](https://www.meetabit.com/).
 
 ## 2. Co-organizers
 
@@ -43,7 +43,7 @@ If you're ever running out of potential sponsors or speakers, you can reach out 
 To promote the event you should use the following channels, in order of preference:
 
 - Mailing list
-- [Techtribes](https://www.techtrib.es/) :)
+- [Techtribes](https://github.com/olegp/techtribes?tab=readme-ov-file#add-a-community)
 - Relevant online communities, see below
 - Social media, primarily LinkedIn and perhaps Bluesky and X; Facebook is no longer a good channel
 
