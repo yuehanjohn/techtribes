@@ -57,3 +57,13 @@ To promote the event you should use the following channels, in order of preferen
 ## 6. Code of conduct
 
 Althought not needed at the beginning, once your community becomes big enough, you should introduce a code of conduct. You can use the [one from HelsinkiJS](https://github.com/helsinkijs/helsinkijs.org?tab=coc-ov-file) as a reference.
+
+## 7. Additional resources
+
+- a [series of posts on organizing tech meetups](https://www.toughbyte.com/blog/what-is-a-meetup-and-why-should-i-care-1) on the Toughbyte blog
+- a [podcast on running a tech meetup](https://podcasts.apple.com/dk/podcast/2-oleg-podsechin-on-meetups-and-communities/id1137769226?i=1000373593644)
+- a [video of a talk on running tech meetups](https://www.youtube.com/watch?v=wNZTLcutqKk)
+- a [developer's guide to communities](https://hamatti.org/posts/developers-guide-to-communities/)
+- [third places and meetups](https://hamatti.org/posts/third-places-and-meetups/)
+- [5 reasons to attend a meetup](https://hamatti.org/posts/5-reasons-to-attend-meetup/)
+- [it's my first time at a meetup - how does it work?](https://archipylago.dev/blog/its-my-first-time-at-meetup/)
