@@ -56,4 +56,4 @@ To promote the event you should use the following channels, in order of preferen
 
 ## 6. Code of conduct
 
-Althought not needed at the beginning, once your community becomes big enough, you should introduce a code of conduct. You can use the one from HelsinkiJS as a reference.
+Althought not needed at the beginning, once your community becomes big enough, you should introduce a code of conduct. You can use the [one from HelsinkiJS](https://github.com/helsinkijs/helsinkijs.org?tab=coc-ov-file) as a reference.
