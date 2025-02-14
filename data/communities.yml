@@ -72,6 +72,15 @@
   events: https://www.meetabit.com/communities/future-frontend
   site: https://futurefrontend.com/
   logo: future-frontend.png
+- name: GDG Helsinki
+  location: Helsinki, Finland
+  tags:
+    - Google Cloud
+    - Mobile
+    - Android, Flutter, Kotlin
+  events: https://www.meetup.com/gdg-helsinki/
+  site: https://www.meetup.com/gdg-helsinki/
+  logo: gdg.png  
 - name: HelSec
   location: Helsinki, Finland
   tags:
