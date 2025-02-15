@@ -77,10 +77,12 @@
   tags:
     - Google Cloud
     - Mobile
-    - Android, Flutter, Kotlin
+    - Android
+    - Flutter
+    - Kotlin
   events: https://www.meetup.com/gdg-helsinki/
   site: https://www.meetup.com/gdg-helsinki/
-  logo: gdg.png  
+  logo: gdg.png
 - name: HelSec
   location: Helsinki, Finland
   tags:
