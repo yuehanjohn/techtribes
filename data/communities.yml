@@ -97,6 +97,13 @@
   events: https://www.meetup.com/helsinki-clojure-meetup/
   site: https://clojurefinland.github.io/
   logo: helsinki-clojure-meetup.png
+- name: Helsinki CTOs
+  location: Helsinki, Finland
+  tags:
+    - Architecture
+    - Leaderhsip
+  events: https://bit.ly/helsinkihn
+  json: https://gist.githubusercontent.com/olegp/ffd01ced03cf6632378655e161711754/raw
 - name: Helsinki Data Analytics & Science Meetup
   location: Helsinki, Finland
   tags:
