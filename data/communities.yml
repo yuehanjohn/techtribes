@@ -254,6 +254,13 @@
   events: https://www.meetup.com/turkusec/
   site: https://turkusec.fi/
   logo: turkusec.png
+- name: Vibe Coding Finland
+  location: Helsinki, Finland
+  tags:
+    - Product
+    - AI
+  events: https://www.meetup.com/vibe-coding-finland/
+  logo: vibecodingfinland.png
 - name: Women4Cyber Finland
   location: Helsinki, Finland
   events: https://www.meetup.com/women4cyber-finland/
