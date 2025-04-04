@@ -282,3 +282,9 @@
     - AI
   events: https://www.meetup.com/datatribe-meetup-group/
   logo: datatribecollective.png
+- name: Helsinki Product Owner
+  location: Helsinki, Finland
+  tags:
+    - Product
+  events: https://www.meetup.com/helsinki-product-owner-meetup/
+  logo: helsinki-product-owner.png
